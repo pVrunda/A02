@@ -1,33 +1,42 @@
 # A02
 
-Installing and Setting up Git:
+Installing and Setting up **Git**:
   1. Download the latest version of Git on your laptop using the following link: https://git-scm.com/downloads
   2. Run the installer and complete the download process.
   3. Open the terminal and set up your account
 
- Creating GitHub Account:
+Installing and Setting up **WebStorm**:
+  1. Download WebStorm from the following website:https://www.jetbrains.com/webstorm/download/#section=mac
+  2. Run the installer and complete the download process. 
+
+ Creating **GitHub** Account:
   1. Go to the following website to create the account: https://github.com
   2. Click on "sign up" and follow the direction to create the account.
 
-Creating a repository:
+Creating a **repository**:
   1. Once you are logged into your GitHub account, click on "+" icon on the upper right corner and Click on "New repository"
   2. Fill out the following information: Repository name, description, privacy setting.
   3. Click on "Create repository" to create a repository
 
-Cloning a repository:
+**Cloning** a repository:
   1. On Github open up the repository you want to clone.
   2. Click the "code" button, and then copy the URL provided.
   3. On Git, open up the terminal.
   4. Navigate to where you want to clone. And write the following command: git clone <Insert URL>
 
-Creating a branch:
+Creating a **branch**:
   1. Use the following code to create a new branch: git checkout -b <name-of-the-branch>
 
-How to push changes to GitHub:
+**Merging** branches:
+  1. Go to the branch you want to merge the changes into.
+  2. In Git, click the "merge" button
+  3. Select the branch you want to merge from.
+
+How to **push** changes to GitHub:
   1. Use the following code to push the changes you made: git push origin <name-of-the-branch>
 
-How to pull changes:
-  1. To pull changes from the remote repository; use the following code: git pull origin <name-of-the-branch>
+How to **pull** changes:
+  1. To pull changes from the **remote** repository; use the following code: git pull origin <name-of-the-branch>
 
 
 
